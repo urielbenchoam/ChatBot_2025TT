@@ -78,7 +78,7 @@ def main():
     promt_del_usuario = st.chat_input("Escribí tu prompt: ")
 
     if promt_del_usuario:
-        actualizar_historial("user", promt_del_usuario, "😠")
+        actualizar_historial("user", promt_del_usuario, "☺️")
         respuesta_del_bot = configurar_modelo(cliente_usuario, modelo_elegido_por_el_usuario, promt_del_usuario)
         
         if respuesta_del_bot:
@@ -91,4 +91,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
